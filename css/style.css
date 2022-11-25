@@ -21,6 +21,7 @@ a{
 /* login page part start  */
 .login__main{
     display: flex;
+    /* background-color: wheat */
 }
 .login__banner img{
     width: 400px;
@@ -30,6 +31,10 @@ a{
 .login__form{
     padding-left: 30px;
 }
+.login__form form h2{
+    font-weight: 900;
+    font-size: 50px;
+}
 .login__form form p{
     padding-top: 30px;
     font-weight: 600;
@@ -38,13 +43,37 @@ a{
 .login__form form input{
     border: none;
     padding: 15px 0;
+    outline: none;
+    width: 400px;
 }
-.login__form form input:focus{
-    border: none;
+.login__form form input:focus {
+    /* border: none; */
 }
 .login__form form input::placeholder{
     color: gray;
     font-size: 20px;
 }
+.checkbox{
+    width: 0px;
+}
+.login__form form button{
+    font-weight: 600;
+    color: white;
+    padding: 10px 45px;
+    background-color: rgb(234, 112, 133);
+    border: transparent;
+    border-radius: 50px;
+}
+.login__form_btn a{
+    padding-left: 200px;
+}
+#checktik{
+    width: 16px;
+}
+.terms{
+    display: inline-block;
+    padding: 30px;
+}
+
 
 /* login page part end  */
