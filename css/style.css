@@ -14,7 +14,6 @@ a{
 .container{
     width: 60%;
     margin: 0 auto;
-    background-color: aqua;
 }
 /* common style part end  */
 
@@ -28,6 +27,24 @@ a{
 }
 .login__form form{
 }
-
+.login__form{
+    padding-left: 30px;
+}
+.login__form form p{
+    padding-top: 30px;
+    font-weight: 600;
+    color: rgba(79, 79, 79, 0.862);
+}
+.login__form form input{
+    border: none;
+    padding: 15px 0;
+}
+.login__form form input:focus{
+    border: none;
+}
+.login__form form input::placeholder{
+    color: gray;
+    font-size: 20px;
+}
 
 /* login page part end  */
