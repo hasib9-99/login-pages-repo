@@ -1,0 +1,33 @@
+/* common style part start  */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+/* common style part end  */
+
+
+/* login page part start  */
+.login__main{
+    display: flex;
+}
+.login__banner img{
+    width: 400px;
+}
+.login__form form{
+}
+
+
+/* login page part end  */
