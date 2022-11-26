@@ -70,9 +70,9 @@ a{
 #checktik{
     width: 16px;
 }
-.terms{
+#terms {
     display: inline-block;
-    padding: 30px;
+    padding: 20px 0;
 }
 
 
