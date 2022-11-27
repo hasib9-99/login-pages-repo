@@ -1,1 +1,7 @@
-console.log("godd");
+const name = document.querySelector(".name")
+const email = document.querySelector(".email")
+const userName = document.querySelector(".user_name")
+const password = document.querySelector(".password")
+const rePassword = document.querySelector(".re_password")
+const checkbox = document.getElementById("checktik")
+const submitBtn = document.querySelector(".btn")
