@@ -74,6 +74,15 @@ a{
     display: inline-block;
     padding: 20px 0;
 }
-
-
+.placeholder__error::placeholder {
+    color: #ff0000 !important;
+}
+.one{
+    position: relative;
+}
+.one i{
+    position: absolute;
+    top: 55%;
+    right: 0;
+}
 /* login page part end  */
