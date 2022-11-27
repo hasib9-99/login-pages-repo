@@ -19,24 +19,39 @@ a{
 
 
 /* login page part start  */
+#login{
+    margin: 50px 0;
+}
 .login__main{
     display: flex;
     /* background-color: wheat */
 }
+
 .login__banner img{
     width: 500px;
+    height: 100%;
+    border-radius: 10px;
 }
-.login__form form{
+.login__banner{
+    position: relative;
+}
+.login__banner_inner{
+    width: 500px;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.637) ,rgba(172, 85, 85, 0.336));
+    position: absolute;
+    top: 0px;
+    border-radius: 10px;
 }
 .login__form{
-    padding-left: 30px;
+    padding-left: 40px;
 }
 .login__form form h2{
     font-weight: 900;
     font-size: 50px;
 }
 .login__form form p{
-    padding-top: 30px;
+    padding-top: 20px;
     font-weight: 600;
     color: rgba(79, 79, 79, 0.862);
 }
@@ -76,6 +91,7 @@ a{
 }
 .placeholder__error::placeholder {
     color: #ff0000 !important;
+    font-weight: 700;
 }
 .one{
     position: relative;

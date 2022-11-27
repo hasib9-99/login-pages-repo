@@ -7,6 +7,7 @@ const checkbox = document.getElementById("checktik")
 const submit = document.querySelector(".btn")
 const RPassIcon = document.querySelector(".re__pass_icon")
 const PassIcon = document.querySelector(".pass_icon")
+const error = document.querySelector(".error")
 
 
 submit.addEventListener("click",(e)=>{
@@ -25,6 +26,8 @@ submit.addEventListener("click",(e)=>{
     }
     if(password.value == 0){
         password.classList.add('placeholder__error')
+    }else if(password.value > 6 && password.value < 32){
+        error.innerHTML = "please enter password 6 to 32"
     }
     if(rePassword.value == 0){
         rePassword.classList.add('placeholder__error')
