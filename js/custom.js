@@ -5,7 +5,8 @@ const password = document.querySelector(".password")
 const rePassword = document.querySelector(".re_password")
 const checkbox = document.getElementById("checktik")
 const submit = document.querySelector(".btn")
-const icon = document.querySelector(".icon")
+const RPassIcon = document.querySelector(".re__pass_icon")
+const PassIcon = document.querySelector(".pass_icon")
 
 
 submit.addEventListener("click",(e)=>{
@@ -30,3 +31,21 @@ submit.addEventListener("click",(e)=>{
     }
 })
 
+PassIcon.addEventListener("click",()=> {
+    if(password.type == "password"){
+        password.type = "text"
+    }else{
+        password.type = "password"
+    }
+    
+})
+
+
+RPassIcon.addEventListener("click",()=> {
+    if(rePassword.type == "password"){
+        rePassword.type = "text"
+    }else{
+        rePassword.type = "password"
+    }
+    
+})

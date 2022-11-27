@@ -59,13 +59,13 @@ a{
 .login__form form button{
     font-weight: 600;
     color: white;
-    padding: 10px 45px;
-    background-color: rgb(234, 112, 133);
+    padding: 10px 50px;
+    background-color: rgb(247, 71, 100);
     border: transparent;
     border-radius: 50px;
 }
 .login__form_btn a{
-    padding-left: 200px;
+    padding-left: 150px;
 }
 #checktik{
     width: 16px;
@@ -85,4 +85,5 @@ a{
     top: 55%;
     right: 0;
 }
+
 /* login page part end  */
